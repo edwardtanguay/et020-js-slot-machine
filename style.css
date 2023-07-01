@@ -9,6 +9,7 @@ body {
   display: flex;
   place-items: center;
   min-height: 100vh;
+  font-family: arial;
 }
 
 
@@ -23,4 +24,12 @@ body {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
+}
+
+.window {
+  width: 5rem;
+  height: 5rem;
+  background-color: #111;
+  display: grid;
+  place-items: center;
 }
