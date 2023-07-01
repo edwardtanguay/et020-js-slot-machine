@@ -15,7 +15,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
 
 const fruits = ['cherry', 'lemon', 'plum', 'grapes', 'apple', 'banana', 'orange', 'watermelon', 'strawberry', 'mango', 'kiwi', 'pineapple', 'pear'];
 
-const getRandomeFruit = () => {
+const getRandomFruit = () => {
 	const index = Math.floor(Math.random() * fruits.length);
 	return fruits[index];
 }
@@ -26,8 +26,8 @@ btn.addEventListener('click', (e) => {
 	const window2Elem = document.querySelector('.window2');
 	const window3Elem = document.querySelector('.window3');
 
-	window1Elem.innerHTML = getRandomeFruit();
-	window2Elem.innerHTML = getRandomeFruit();
-	window3Elem.innerHTML = getRandomeFruit();
+	window1Elem.innerHTML = getRandomFruit();
+	window2Elem.innerHTML = getRandomFruit();
+	window3Elem.innerHTML = getRandomFruit();
 
 });
