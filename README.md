@@ -1,4 +1,6 @@
-# js-slot-machine
+# minimal slot machine created with Vite Vanilla
 
-## Created with YT Tutorial from Tech with Tim
-https://www.youtube.com/watch?v=E3XxeE7NF30
+## for other Vite Vanilla sites see
+
+- https://starters.tanguay.eu/list/darkViteVanilla
+- https://starters.tanguay.eu/list/darkViteVanillaMenu
