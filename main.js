@@ -16,8 +16,12 @@ document.querySelector("#app").innerHTML = /*html*/ `
 const btn = document.querySelector('.btnLever');
 btn.addEventListener('click', (e) => {
 	const window1Elem = document.querySelector('.window1');
+	const window2Elem = document.querySelector('.window2');
+	const window3Elem = document.querySelector('.window3');
 
 
 	window1Elem.innerHTML = 'nnn';
+	window2Elem.innerHTML = 'nnn';
+	window3Elem.innerHTML = 'nnn';
 
 });
