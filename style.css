@@ -7,22 +7,21 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   font-family: arial;
 }
 
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .windows {
   display: flex;
   gap: 1rem;
+  justify-content: space-between;
   margin-bottom: 2rem;
 }
 
@@ -32,4 +31,9 @@ body {
   background-color: #111;
   display: grid;
   place-items: center;
+}
+
+.btnLever {
+  width: 20rem;
+  height: 2.5rem;
 }

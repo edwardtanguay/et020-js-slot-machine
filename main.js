@@ -9,7 +9,7 @@ document.querySelector("#app").innerHTML = /*html*/ `
 	<div class="window window3">333</div>
 </div>
 
-<button class="btnLever">Pull Level</button>
+<button class="btnLever">Pull Lever</button>
 </div>
 `;
 
