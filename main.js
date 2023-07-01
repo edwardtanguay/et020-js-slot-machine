@@ -4,19 +4,20 @@ document.querySelector("#app").innerHTML = /*html*/ `
 <div>
 
 <div class="windows">
-	<div class="window window1">111</div>
-	<div class="window window2">222</div>
-	<div class="window window3">333</div>
+	<div class="window window1">---</div>
+	<div class="window window2">---</div>
+	<div class="window window3">---</div>
 </div>
 
 <button class="btnLever">Pull Lever</button>
 </div>
 `;
 
-const fruits = ['cherry', 'lemon', 'plum', 'apple', 'banana', 'grapes'];
+const fruits = ['cherry', 'lemon', 'plum', 'grapes', 'apple', 'banana', 'orange', 'watermelon', 'strawberry', 'mango', 'kiwi', 'pineapple', 'pear'];
 
 const getRandomeFruit = () => {
-	return fruits[0];
+	const index = Math.floor(Math.random() * fruits.length);
+	return fruits[index];
 }
 
 const btn = document.querySelector('.btnLever');
